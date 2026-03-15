@@ -22,10 +22,14 @@ A comprehensive journey through Machine Learning fundamentals, from data handlin
 │   ├── 01-Linear-Regression/
 │   ├── 02-Gradient-Descent/
 │   └── 03-Regularization/
-├── Phase-6-Classification-Ensembles/ # Days 58-63: Classification & Ensembles
+├── Phase-6-Classification-Ensembles/ # Days 58-66: Classification & Ensembles
 │   ├── 01-Logistic-Regression/
 │   ├── 02-Decision-Trees/
-│   └── 03-Ensemble-Methods/
+│   ├── 03-Ensemble-Methods/
+│   ├── 04-Random-Forest/
+│   └── 05-Boosting/
+├── Phase-7-Advanced-Ensembles/       # Day 67+: Gradient Boosting
+│   └── 01-Gradient-Boosting/
 ├── datasets/                          # Raw datasets for practice
 ├── extras/                            # Additional resources & notes
 └── README.md
@@ -103,16 +107,31 @@ Predict continuous values using regression algorithms.
 
 ---
 
-### **Phase 6: Classification & Ensemble Methods** (Days 58-63)
+### **Phase 6: Classification & Ensemble Methods** (Days 58-66)
 Predict categories and combine models for better accuracy.
 
 **Topics Covered:**
 - Logistic Regression and Softmax Regression
 - Decision Trees and bias-variance tradeoff
 - Voting Classifiers and Regressors
-- Ensemble methods for improved predictions
+- Bagging ensemble methods
+- Random Forest algorithm and feature importance
+- Out-of-Bag (OOB) scoring
+- AdaBoost boosting algorithm
 
 📖 [View Phase 6 Details](Phase-6-Classification-Ensembles/README.md)
+
+---
+
+### **Phase 7: Advanced Ensembles** (Day 67+)
+Master advanced boosting techniques used in competitions and production.
+
+**Topics Covered:**
+- Gradient Boosting algorithm
+- Mathematical foundations of gradient boosting
+- Gradient Boosting for classification and regression
+
+📖 [View Phase 7 Details](Phase-7-Advanced-Ensembles/README.md)
 
 ---
 
@@ -192,7 +211,8 @@ By completing this course, you will:
 | Phase 3 - ML Pipelines | ✅ Complete | 4 notebooks |
 | Phase 4 - Missing Values & Outliers | ✅ Complete | 6 notebooks |
 | Phase 5 - Regression | ✅ Complete | 8 notebooks |
-| Phase 6 - Classification & Ensembles | ✅ Complete | 5 notebooks |
+| Phase 6 - Classification & Ensembles | ✅ Complete | 16 notebooks |
+| Phase 7 - Advanced Ensembles | ✅ Complete | 2 notebooks |
 
 ---
 
@@ -214,6 +234,10 @@ By completing this course, you will:
 | Phase 4 | Phase 5 | Phase 6 |
 |---------|---------|---------|
 | [Missing Values & Outliers](Phase-4-Missing-Values-Outliers/README.md) | [Regression](Phase-5-Regression/README.md) | [Classification & Ensembles](Phase-6-Classification-Ensembles/README.md) |
+
+| Phase 7 |
+|---------|
+| [Advanced Ensembles](Phase-7-Advanced-Ensembles/README.md) |
 
 ---
 
