@@ -28,9 +28,9 @@ class KMeans:
             # move the centroids
             old_centroids = self.centroids.copy()
             self.centroids = self.move_centroids(x, cluster_group)
-        
+
             # check finish
-            if (old_centroids == self.centroids).all:
+            if (old_centroids == self.centroids).all():
                 break
         return cluster_group
 
