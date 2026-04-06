@@ -6,7 +6,7 @@ A comprehensive journey through Machine Learning fundamentals, from data handlin
 
 ```
 100-days-ML/
-├── Phase-1-Data-Handling-EDA/       # Days 13-22: Data Collection & EDA
+├── Phase-1-Data-Handling-EDA/          # Days 13-22: Data Collection & EDA
 │   ├── 01-Data-Collection/
 │   │   ├── 15-working-with-csv.ipynb
 │   │   └── 18-Web-Scrapping.ipynb
@@ -15,9 +15,10 @@ A comprehensive journey through Machine Learning fundamentals, from data handlin
 │   │   ├── 20-eda-univariate.ipynb
 │   │   ├── 21-eda-multivariate.ipynb
 │   │   └── 22-pandas-profiling.ipynb
-│   ├── 13-end-to-end-placement.ipynb
-│   └── 13-practice.ipynb
-├── Phase-2-Feature-Engineering/      # Days 24-32: Feature Preparation
+│   └── 03-Practice/
+│       ├── 13-end-to-end-placement.ipynb
+│       └── 13-practice.ipynb
+├── Phase-2-Feature-Engineering/         # Days 24-45: Feature Preparation
 │   ├── 01-Feature-Scaling/
 │   │   ├── 24-feature-scaling.ipynb
 │   │   ├── 24-feature-scaling-practice.ipynb
@@ -28,17 +29,18 @@ A comprehensive journey through Machine Learning fundamentals, from data handlin
 │   │   ├── 26-ordinal-encoding.ipynb
 │   │   ├── 27-one-hot-encoding.ipynb
 │   │   └── 28-column-transform.ipynb
-│   ├── 32-binning-binarization.ipynb
-│   ├── 34_dateTime.ipynb
-│   └── 45-feature-construction.ipynb
-├── Phase-3-ML-Pipelines/             # Day 29: Building ML Pipelines
+│   └── 03-Feature-Construction/
+│       ├── 32-binning-binarization.ipynb
+│       ├── 34_dateTime.ipynb
+│       └── 45-feature-construction.ipynb
+├── Phase-3-ML-Pipelines/                # Day 29: Building ML Pipelines
 │   ├── 01-Pipeline-Basics/
 │   │   ├── 29-without-pipeline.ipynb
 │   │   └── 29-02-with-pipeline.ipynb
 │   └── 02-Pipeline-Practice/
 │       ├── 29-03-practice-pipeline.ipynb
 │       └── 29-04-practice-pipeline.ipynb
-├── Phase-4-Missing-Values-Outliers/  # Days 35-44: Data Cleaning
+├── Phase-4-Missing-Values-Outliers/     # Days 35-44: Data Cleaning
 │   ├── 01-Missing-Value-Imputation/
 │   │   ├── 35-missing-values-CCA.ipynb
 │   │   ├── 36-mean-median-imputation.ipynb
@@ -47,7 +49,7 @@ A comprehensive journey through Machine Learning fundamentals, from data handlin
 │       ├── 42-outlier-detection-removal.ipynb
 │       ├── 43-outlier-IQR-capping.ipynb
 │       └── 44-outlier-percentile.ipynb
-├── Phase-5-Regression/               # Days 48-56: Regression Algorithms
+├── Phase-5-Regression/                  # Days 48-56: Regression Algorithms
 │   ├── 01-Linear-Regression/
 │   │   ├── 48-simple-linear-reg.ipynb
 │   │   └── 48-SLR-02.ipynb
@@ -59,7 +61,7 @@ A comprehensive journey through Machine Learning fundamentals, from data handlin
 │   └── 03-Regularization/
 │       ├── 55-ridge-regression.ipynb
 │       └── 56-lasso-regression.ipynb
-├── Phase-6-Classification-Ensembles/ # Days 58-66: Classification & Ensembles
+├── Phase-6-Classification-Ensembles/    # Days 58-66: Classification & Ensembles
 │   ├── 01-Logistic-Regression/
 │   │   ├── 58-logistic-regression-perceptron-trick.ipynb
 │   │   └── 60_softmax_regression.ipynb
@@ -79,41 +81,21 @@ A comprehensive journey through Machine Learning fundamentals, from data handlin
 │   │   └── 66-06-feature-importance-rf-dt.ipynb
 │   └── 05-Boosting/
 │       └── 66-adaboost-demo.ipynb
-├── Phase-7-Advanced-Ensembles/       # Day 67+: Gradient Boosting
-│   └── 01-Gradient-Boosting/
-│       ├── 67-01-gradient-boost.ipynb
-│       └── 67-02-gradient-boost-maths-demo.ipynb
-├── k-means-from-scratch/             # Day 70-71: K-Means Clustering
-│   ├── 70-k-means.ipynb
-│   ├── _71_kMeans.py
-│   └── 71-app.py
-├── datasets/                          # Raw datasets for practice
+├── Phase-7-Advanced-Ensembles/          # Days 67-68: Advanced Boosting
+│   ├── 01-Gradient-Boosting/
+│   │   ├── 67-01-gradient-boost.ipynb
+│   │   └── 67-02-gradient-boost-maths-demo.ipynb
+│   └── 02-XGBoost/
+│       └── 68-01-XGBoost-test.ipynb
+├── Phase-8-Unsupervised/                 # Days 70+: Unsupervised Learning
+│   ├── 01-K-Means/
+│   │   ├── 70-k-means.ipynb
+│   │   ├── _71_kMeans.py
+│   │   └── 71-app.py
+│   └── 02-Naive-Bayes/
+├── datasets/                             # Raw datasets for practice
 │   └── heart.csv
-├── extras/                            # Additional resources & notes
-├── 68-01-XGBoost-test.ipynb          # Day 68: XGBoost Testing
-└── README.md
-```caling/
-│   └── 02-Categorical-Encoding/
-├── Phase-3-ML-Pipelines/             # Day 29: Building ML Pipelines
-│   ├── 01-Pipeline-Basics/
-│   └── 02-Pipeline-Practice/
-├── Phase-4-Missing-Values-Outliers/  # Days 35-44: Data Cleaning
-│   ├── 01-Missing-Value-Imputation/
-│   └── 02-Outlier-Detection/
-├── Phase-5-Regression/               # Days 48-56: Regression Algorithms
-│   ├── 01-Linear-Regression/
-│   ├── 02-Gradient-Descent/
-│   └── 03-Regularization/
-├── Phase-6-Classification-Ensembles/ # Days 58-66: Classification & Ensembles
-│   ├── 01-Logistic-Regression/
-│   ├── 02-Decision-Trees/
-│   ├── 03-Ensemble-Methods/
-│   ├── 04-Random-Forest/
-│   └── 05-Boosting/
-├── Phase-7-Advanced-Ensembles/       # Day 67+: Gradient Boosting
-│   └── 01-Gradient-Boosting/
-├── datasets/                          # Raw datasets for practice
-├── extras/                            # Additional resources & notes
+├── extras/                               # Additional resources & notes
 └── README.md
 ```
 
@@ -135,7 +117,7 @@ Learn the fundamentals of working with data, from collection to exploration.
 
 ---
 
-### **Phase 2: Feature Engineering** (Days 24-32)
+### **Phase 2: Feature Engineering** (Days 24-45)
 Master the art of preparing data for machine learning models.
 
 **Topics Covered:**
@@ -144,6 +126,7 @@ Master the art of preparing data for machine learning models.
 - Ordinal and one-hot encoding
 - ColumnTransformer for multiple preprocessing steps
 - Binning, binarization, and datetime features
+- Feature construction
 
 📖 [View Phase 2 Details](Phase-2-Feature-Engineering/README.md)
 
@@ -205,27 +188,27 @@ Predict categories and combine models for better accuracy.
 
 ---
 
-### **Phase 7: Advanced Ensembles** (Day 67+)
+### **Phase 7: Advanced Ensembles** (Days 67-68)
 Master advanced boosting techniques used in competitions and production.
 
 **Topics Covered:**
 - Gradient Boosting algorithm
 - Mathematical foundations of gradient boosting
-- Gradient Boosting for classification and regression
+- XGBoost testing and implementation
 
 📖 [View Phase 7 Details](Phase-7-Advanced-Ensembles/README.md)
 
 ---
 
-### **Phase 8: K-Means Clustering** (Days 70-71)
-Implement K-Means clustering algorithm from scratch.
+### **Phase 8: Clustering** (Days 70-71)
+Implement unsupervised learning algorithms from scratch.
 
 **Topics Covered:**
-- K-Means algorithm implementation
+- K-Means clustering algorithm
 - Elbow method for optimal clusters
-- Streamlit app deployment
+- Streamlit app for interactive demo
 
-📖 [View K-Means Details](k-means-from-scratch/)
+📖 [View Phase 8 Details](Phase-8-Clustering/)
 
 ---
 
@@ -240,11 +223,12 @@ Implement K-Means clustering algorithm from scratch.
 
 ```bash
 # Navigate to the repository
-cd 100-days-ML/100-days-ML
+cd 100-days-ML
 
 # Install required packages
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 pip install ydata-profiling playwright beautifulsoup4 requests
+pip install xgboost streamlit
 ```
 
 ### Running Notebooks
@@ -267,6 +251,7 @@ pip install ydata-profiling playwright beautifulsoup4 requests
 | Social Network Ads | Phase 2 | Ad purchase predictions |
 | Wine Quality | Phase 2 | Wine chemical properties |
 | Car Selling Price | Phase 2 | Vehicle pricing data |
+| Heart Disease | Phase 8 | Heart disease prediction |
 
 *See [datasets/README.md](datasets/README.md) for complete list*
 
@@ -286,13 +271,15 @@ By completing this course, you will:
 - ✅ Apply feature scaling techniques
 - ✅ Encode categorical variables appropriately
 - ✅ Build preprocessing pipelines
+- ✅ Construct new features from existing data
 
 ### Machine Learning
 - ✅ Build and evaluate regression models
 - ✅ Implement classification algorithms
 - ✅ Understand and apply regularization
-- ✅ Create ensemble models
+- ✅ Create ensemble models (Bagging, Random Forest, Boosting)
 - ✅ Deploy production-ready ML pipelines
+- ✅ Implement clustering algorithms from scratch
 
 ---
 
@@ -306,9 +293,8 @@ By completing this course, you will:
 | Phase 4 - Missing Values & Outliers | ✅ Complete | 6 notebooks |
 | Phase 5 - Regression | ✅ Complete | 8 notebooks |
 | Phase 6 - Classification & Ensembles | ✅ Complete | 11 notebooks |
-| Phase 7 - Advanced Ensembles | ✅ Complete | 2 notebooks |
-| Day 68 - XGBoost | ✅ Complete | 1 notebook |
-| Phase 8 - K-Means Clustering | ✅ Complete | 1 notebook + 2 Python scripts |
+| Phase 7 - Advanced Ensembles | ✅ Complete | 3 notebooks |
+| Phase 8 - Clustering | ✅ Complete | 1 notebook + 2 Python scripts |
 
 ---
 
@@ -333,7 +319,7 @@ By completing this course, you will:
 
 | Phase 7 | Phase 8 |
 |---------|---------|
-| [Advanced Ensembles](Phase-7-Advanced-Ensembles/README.md) | [K-Means Clustering](k-means-from-scratch/) |
+| [Advanced Ensembles](Phase-7-Advanced-Ensembles/README.md) | [Clustering](Phase-8-Clustering/) |
 
 ---
 
