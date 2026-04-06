@@ -200,15 +200,16 @@ Master advanced boosting techniques used in competitions and production.
 
 ---
 
-### **Phase 8: Clustering** (Days 70-71)
-Implement unsupervised learning algorithms from scratch.
+### **Phase 8: Unsupervised Learning** (Days 70+)
+Implement unsupervised learning algorithms.
 
 **Topics Covered:**
-- K-Means clustering algorithm
+- K-Means clustering algorithm (from scratch)
 - Elbow method for optimal clusters
 - Streamlit app for interactive demo
+- Naive Bayes classification
 
-📖 [View Phase 8 Details](Phase-8-Clustering/)
+📖 [View Phase 8 Details](Phase-8-Unsupervised/)
 
 ---
 
@@ -294,7 +295,7 @@ By completing this course, you will:
 | Phase 5 - Regression | ✅ Complete | 8 notebooks |
 | Phase 6 - Classification & Ensembles | ✅ Complete | 11 notebooks |
 | Phase 7 - Advanced Ensembles | ✅ Complete | 3 notebooks |
-| Phase 8 - Clustering | ✅ Complete | 1 notebook + 2 Python scripts |
+| Phase 8 - Unsupervised Learning | 🚧 In Progress | 1 notebook + 2 Python scripts |
 
 ---
 
@@ -319,7 +320,7 @@ By completing this course, you will:
 
 | Phase 7 | Phase 8 |
 |---------|---------|
-| [Advanced Ensembles](Phase-7-Advanced-Ensembles/README.md) | [Clustering](Phase-8-Clustering/) |
+| [Advanced Ensembles](Phase-7-Advanced-Ensembles/README.md) | [Unsupervised](Phase-8-Unsupervised/) |
 
 ---
 
