@@ -8,9 +8,91 @@ A comprehensive journey through Machine Learning fundamentals, from data handlin
 100-days-ML/
 ├── Phase-1-Data-Handling-EDA/       # Days 13-22: Data Collection & EDA
 │   ├── 01-Data-Collection/
-│   └── 02-Exploratory-Data-Analysis/
+│   │   ├── 15-working-with-csv.ipynb
+│   │   └── 18-Web-Scrapping.ipynb
+│   ├── 02-Exploratory-Data-Analysis/
+│   │   ├── 19-understanding-data.ipynb
+│   │   ├── 20-eda-univariate.ipynb
+│   │   ├── 21-eda-multivariate.ipynb
+│   │   └── 22-pandas-profiling.ipynb
+│   ├── 13-end-to-end-placement.ipynb
+│   └── 13-practice.ipynb
 ├── Phase-2-Feature-Engineering/      # Days 24-32: Feature Preparation
 │   ├── 01-Feature-Scaling/
+│   │   ├── 24-feature-scaling.ipynb
+│   │   ├── 24-feature-scaling-practice.ipynb
+│   │   ├── 25-featureScale-normalization.ipynb
+│   │   ├── 30_function_transformer.ipynb
+│   │   └── 31-power-transformer.ipynb
+│   ├── 02-Categorical-Encoding/
+│   │   ├── 26-ordinal-encoding.ipynb
+│   │   ├── 27-one-hot-encoding.ipynb
+│   │   └── 28-column-transform.ipynb
+│   ├── 32-binning-binarization.ipynb
+│   ├── 34_dateTime.ipynb
+│   └── 45-feature-construction.ipynb
+├── Phase-3-ML-Pipelines/             # Day 29: Building ML Pipelines
+│   ├── 01-Pipeline-Basics/
+│   │   ├── 29-without-pipeline.ipynb
+│   │   └── 29-02-with-pipeline.ipynb
+│   └── 02-Pipeline-Practice/
+│       ├── 29-03-practice-pipeline.ipynb
+│       └── 29-04-practice-pipeline.ipynb
+├── Phase-4-Missing-Values-Outliers/  # Days 35-44: Data Cleaning
+│   ├── 01-Missing-Value-Imputation/
+│   │   ├── 35-missing-values-CCA.ipynb
+│   │   ├── 36-mean-median-imputation.ipynb
+│   │   └── 38-random-simple-imputation.ipynb
+│   └── 02-Outlier-Detection/
+│       ├── 42-outlier-detection-removal.ipynb
+│       ├── 43-outlier-IQR-capping.ipynb
+│       └── 44-outlier-percentile.ipynb
+├── Phase-5-Regression/               # Days 48-56: Regression Algorithms
+│   ├── 01-Linear-Regression/
+│   │   ├── 48-simple-linear-reg.ipynb
+│   │   └── 48-SLR-02.ipynb
+│   ├── 02-Gradient-Descent/
+│   │   ├── 51-gradient-descent.ipynb
+│   │   ├── 51-02-gradient-descent.ipynb
+│   │   ├── 52-Batch-Gradient-Descent.ipynb
+│   │   └── 53-stochastic-GD.ipynb
+│   └── 03-Regularization/
+│       ├── 55-ridge-regression.ipynb
+│       └── 56-lasso-regression.ipynb
+├── Phase-6-Classification-Ensembles/ # Days 58-66: Classification & Ensembles
+│   ├── 01-Logistic-Regression/
+│   │   ├── 58-logistic-regression-perceptron-trick.ipynb
+│   │   └── 60_softmax_regression.ipynb
+│   ├── 02-Decision-Trees/
+│   │   └── 61-decision-trees-over-under-fitting.ipynb
+│   ├── 03-Ensemble-Methods/
+│   │   ├── 63-voting-ensemble.ipynb
+│   │   ├── 63_voting_regressor.ipynb
+│   │   ├── 64_bagging_ensemble.ipynb
+│   │   └── 65_bagging.ipynb
+│   ├── 04-Random-Forest/
+│   │   ├── 66-01-random-forest-demo.ipynb
+│   │   ├── 66-02-random-forest-demo.ipynb
+│   │   ├── 66-03-bagging-vs-randomForest.ipynb
+│   │   ├── 66-04-code-example-rf.ipynb
+│   │   ├── 66-05-oob-score-demo.ipynb
+│   │   └── 66-06-feature-importance-rf-dt.ipynb
+│   └── 05-Boosting/
+│       └── 66-adaboost-demo.ipynb
+├── Phase-7-Advanced-Ensembles/       # Day 67+: Gradient Boosting
+│   └── 01-Gradient-Boosting/
+│       ├── 67-01-gradient-boost.ipynb
+│       └── 67-02-gradient-boost-maths-demo.ipynb
+├── k-means-from-scratch/             # Day 70-71: K-Means Clustering
+│   ├── 70-k-means.ipynb
+│   ├── _71_kMeans.py
+│   └── 71-app.py
+├── datasets/                          # Raw datasets for practice
+│   └── heart.csv
+├── extras/                            # Additional resources & notes
+├── 68-01-XGBoost-test.ipynb          # Day 68: XGBoost Testing
+└── README.md
+```caling/
 │   └── 02-Categorical-Encoding/
 ├── Phase-3-ML-Pipelines/             # Day 29: Building ML Pipelines
 │   ├── 01-Pipeline-Basics/
@@ -135,6 +217,18 @@ Master advanced boosting techniques used in competitions and production.
 
 ---
 
+### **Phase 8: K-Means Clustering** (Days 70-71)
+Implement K-Means clustering algorithm from scratch.
+
+**Topics Covered:**
+- K-Means algorithm implementation
+- Elbow method for optimal clusters
+- Streamlit app deployment
+
+📖 [View K-Means Details](k-means-from-scratch/)
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -204,15 +298,17 @@ By completing this course, you will:
 
 ## 📝 Course Progress
 
-| Phase | Status | Notebooks |
-|-------|--------|-----------|
-| Phase 1 - Data Handling & EDA | ✅ Complete | 8 notebooks |
-| Phase 2 - Feature Engineering | ✅ Complete | 9 notebooks |
+| Phase | Status | Notebooks/Files |
+|-------|--------|-----------------|
+| Phase 1 - Data Handling & EDA | ✅ Complete | 6 notebooks |
+| Phase 2 - Feature Engineering | ✅ Complete | 8 notebooks |
 | Phase 3 - ML Pipelines | ✅ Complete | 4 notebooks |
 | Phase 4 - Missing Values & Outliers | ✅ Complete | 6 notebooks |
 | Phase 5 - Regression | ✅ Complete | 8 notebooks |
-| Phase 6 - Classification & Ensembles | ✅ Complete | 16 notebooks |
+| Phase 6 - Classification & Ensembles | ✅ Complete | 11 notebooks |
 | Phase 7 - Advanced Ensembles | ✅ Complete | 2 notebooks |
+| Day 68 - XGBoost | ✅ Complete | 1 notebook |
+| Phase 8 - K-Means Clustering | ✅ Complete | 1 notebook + 2 Python scripts |
 
 ---
 
@@ -235,9 +331,9 @@ By completing this course, you will:
 |---------|---------|---------|
 | [Missing Values & Outliers](Phase-4-Missing-Values-Outliers/README.md) | [Regression](Phase-5-Regression/README.md) | [Classification & Ensembles](Phase-6-Classification-Ensembles/README.md) |
 
-| Phase 7 |
-|---------|
-| [Advanced Ensembles](Phase-7-Advanced-Ensembles/README.md) |
+| Phase 7 | Phase 8 |
+|---------|---------|
+| [Advanced Ensembles](Phase-7-Advanced-Ensembles/README.md) | [K-Means Clustering](k-means-from-scratch/) |
 
 ---
 
