@@ -6,7 +6,7 @@ A comprehensive journey through Machine Learning fundamentals, from data handlin
 
 ```
 100-days-ML/
-├── Phase-1-Data-Handling-EDA/          # Days 13-22: Data Collection & EDA
+├── Phase-1-Data-Handling-EDA/          # days 13-22: Data Collection & EDA
 │   ├── 01-Data-Collection/
 │   │   ├── 15-working-with-csv.ipynb
 │   │   └── 18-Web-Scrapping.ipynb
